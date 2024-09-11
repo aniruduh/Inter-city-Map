@@ -87,7 +87,7 @@ practicality:
 14. Query-Based System:
 * Enables users to perform queries based on their specific needs, offering valuable insights into city connections and travel options.
 
-    These features collectively make the inter-city map project a robust and adaptable tool for addressing the challenges associated with urban navigation and route optimization.
+**These features collectively make the inter-city map project a robust and adaptable tool for addressing the challenges associated with urban navigation and route optimization.**
 
 
 ## Implementation details
@@ -129,4 +129,21 @@ practicality:
 10. Object-Oriented Programming (OOP) Concepts:
 * The project encapsulates functionalities within a class ('mapp'), leveraging OOP concepts for modularity, encapsulation, and ease of maintenance.
 
-    These implementation details collectively contribute to a well-structured and efficient solution for the inter-city map project. The choice of data structures and algorithms is tailored to address the specific requirements of city navigation, ensuring accuracy and speed in determining optimal routes and distances.
+**These implementation details collectively contribute to a well-structured and efficient solution for the inter-city map project. The choice of data structures and algorithms is tailored to address the specific requirements of city navigation, ensuring accuracy and speed in determining optimal routes and distances.**
+
+## Conclusion
+
+In conclusion, the implementation of an inter-city map using C++ and
+graph algorithms has yielded a versatile and efficient solution for
+navigating between cities. The project leverages data structures and
+algorithms to construct a comprehensive representation of city
+connections, considering both day and night travel scenarios. The use
+of the Floyd-Warshall algorithm enables the determination of the
+shortest distances between all pairs of cities, providing valuable
+insights into the city network.
+
+Additionally, the modification of Dijkstra's algorithm allows users to
+find the shortest path from a specified starting city to a destination city,
+taking into account the time of day for optimal routing. The
+incorporation of priority queues and efficient data structures enhances
+the speed and responsiveness of the pathfinding process.
